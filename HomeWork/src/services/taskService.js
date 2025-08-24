@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL for your Spring Boot backend
-const BASE_URL = 'http://localhost:2005/myhometaskmanager/api/tasks';
+const BASE_URL = 'http://localhost:2030/myhometaskmanager/api/tasks';
 
 // Create axios instance with default configuration
 const api = axios.create({
