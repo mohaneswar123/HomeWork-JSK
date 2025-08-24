@@ -46,7 +46,7 @@ export const taskService = {
   // Get all tasks
   getAllTasks: async () => {
     try {
-      const response = await api.get('/get/all');
+      const response = await api.get('/getAll');
       return response.data;
     } catch (error) {
       throw new Error(error.response?.data || 'Error fetching tasks');
