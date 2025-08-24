@@ -58,7 +58,7 @@ public class HomeTaskController {
 		}
 	}
 	
-	@GetMapping("/get/all")
+	@GetMapping("/getAll")
 	public ResponseEntity<List<HomeTasks>> getAll(){
 		List<HomeTasks> tasks = homeTaskService.getAll();
         return new ResponseEntity<>(tasks, HttpStatus.OK);
